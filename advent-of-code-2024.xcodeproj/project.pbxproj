@@ -10,10 +10,14 @@
 		3438B9052CFCE10D00AED7F3 /* Day01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348C1DE82CFCCFE000DF5635 /* Day01.swift */; };
 		3438B9062CFCE10D00AED7F3 /* InputReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348C1DE92CFCCFE000DF5635 /* InputReader.swift */; };
 		3438B9072CFCE10D00AED7F3 /* Day01Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348C1DF12CFCD19900DF5635 /* Day01Test.swift */; };
+		3438B90C2CFDC11200AED7F3 /* Day02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3438B90A2CFDC11200AED7F3 /* Day02.swift */; };
+		3438B90D2CFDC11200AED7F3 /* Day02Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3438B90B2CFDC11200AED7F3 /* Day02Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3438B8F52CFCDA0100AED7F3 /* RunAndTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunAndTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3438B90A2CFDC11200AED7F3 /* Day02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day02.swift; sourceTree = "<group>"; };
+		3438B90B2CFDC11200AED7F3 /* Day02Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day02Test.swift; sourceTree = "<group>"; };
 		348C1DE82CFCCFE000DF5635 /* Day01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day01.swift; sourceTree = "<group>"; };
 		348C1DE92CFCCFE000DF5635 /* InputReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputReader.swift; sourceTree = "<group>"; };
 		348C1DEA2CFCCFE000DF5635 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -45,6 +49,8 @@
 			children = (
 				348C1DE82CFCCFE000DF5635 /* Day01.swift */,
 				348C1DF12CFCD19900DF5635 /* Day01Test.swift */,
+				3438B90A2CFDC11200AED7F3 /* Day02.swift */,
+				3438B90B2CFDC11200AED7F3 /* Day02Test.swift */,
 				348C1DE92CFCCFE000DF5635 /* InputReader.swift */,
 				348C1DEA2CFCCFE000DF5635 /* LICENSE */,
 				348C1DEB2CFCCFE000DF5635 /* README.md */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3438B9052CFCE10D00AED7F3 /* Day01.swift in Sources */,
+				3438B90C2CFDC11200AED7F3 /* Day02.swift in Sources */,
 				3438B9062CFCE10D00AED7F3 /* InputReader.swift in Sources */,
+				3438B90D2CFDC11200AED7F3 /* Day02Test.swift in Sources */,
 				3438B9072CFCE10D00AED7F3 /* Day01Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
