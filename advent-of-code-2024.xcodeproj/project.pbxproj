@@ -12,6 +12,8 @@
 		3438B9072CFCE10D00AED7F3 /* Day01Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348C1DF12CFCD19900DF5635 /* Day01Test.swift */; };
 		3438B90C2CFDC11200AED7F3 /* Day02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3438B90A2CFDC11200AED7F3 /* Day02.swift */; };
 		3438B90D2CFDC11200AED7F3 /* Day02Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3438B90B2CFDC11200AED7F3 /* Day02Test.swift */; };
+		34AD27322CFE68CE004FA0C8 /* Day03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AD27302CFE68CE004FA0C8 /* Day03.swift */; };
+		34AD27332CFE68CE004FA0C8 /* Day03Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AD27312CFE68CE004FA0C8 /* Day03Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		348C1DEA2CFCCFE000DF5635 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		348C1DEB2CFCCFE000DF5635 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		348C1DF12CFCD19900DF5635 /* Day01Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day01Test.swift; sourceTree = "<group>"; };
+		34AD27302CFE68CE004FA0C8 /* Day03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day03.swift; sourceTree = "<group>"; };
+		34AD27312CFE68CE004FA0C8 /* Day03Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day03Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -51,6 +55,8 @@
 				348C1DF12CFCD19900DF5635 /* Day01Test.swift */,
 				3438B90A2CFDC11200AED7F3 /* Day02.swift */,
 				3438B90B2CFDC11200AED7F3 /* Day02Test.swift */,
+				34AD27302CFE68CE004FA0C8 /* Day03.swift */,
+				34AD27312CFE68CE004FA0C8 /* Day03Test.swift */,
 				348C1DE92CFCCFE000DF5635 /* InputReader.swift */,
 				348C1DEA2CFCCFE000DF5635 /* LICENSE */,
 				348C1DEB2CFCCFE000DF5635 /* README.md */,
@@ -141,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34AD27322CFE68CE004FA0C8 /* Day03.swift in Sources */,
 				3438B9052CFCE10D00AED7F3 /* Day01.swift in Sources */,
+				34AD27332CFE68CE004FA0C8 /* Day03Test.swift in Sources */,
 				3438B90C2CFDC11200AED7F3 /* Day02.swift in Sources */,
 				3438B9062CFCE10D00AED7F3 /* InputReader.swift in Sources */,
 				3438B90D2CFDC11200AED7F3 /* Day02Test.swift in Sources */,
