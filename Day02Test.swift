@@ -21,25 +21,25 @@ struct Day02Test {
         #expect(Day02().solvePart2(input: "1 3 6 7 9") == 1)
     }
 
-    @Test func examplePuzzlePart1() {
+    @Test func examplePart1() {
         let result = Day02().solvePart1(input: Day02Test.exampleInput)
         #expect(result == 2)
     }
     
-    @Test func examplePuzzlePart2() {
+    @Test func examplePart2() {
         let result = Day02().solvePart2(input: Day02Test.exampleInput)
         #expect(result == 4)
     }
     
-    @Test(.disabled(if: input == nil))
-    func realPuzzlePart1() throws {
+    @Test(.disabled(if: input == nil), .tags(.solution))
+    func day02Part1() throws {
         let solutionPart1 = Day02().solvePart1(input: Day02Test.input!)
         print("Day 02, Part 1 Solution: \(solutionPart1)")
         // #expect(solutionPart1 == 334)
     }
     
-    @Test(.disabled(if: input == nil))
-    func realPuzzlePart2() throws {
+    @Test(.disabled(if: input == nil), .tags(.solution))
+    func day02Part2() throws {
         let solutionPart2 = Day02().solvePart2(input: Day02Test.input!)
         print("Day 02, Part 2 Solution: \(solutionPart2)")
         // #expect(solutionPart2 == 400)
